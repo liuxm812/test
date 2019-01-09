@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
 {
 	int z = 0;
 	z = test_add(x, y);
-	printf("Hello! z=%d\n", z);
+	printf("z=%d\n", z);
+	printf("Hello!\n");
 	return 0;
 }
